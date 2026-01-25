@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root,
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  background-color: #121212;
+  color: #fff;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0dcaf0;
+}
+
+.search-bar,
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem auto;
+  max-width: 1000px;
+}
+
+.search-bar input,
+.filter-bar select,
+.filter-bar button {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  min-width: 200px;
+}
+
+.random-btn,
+.back-btn,
+.clear-liked-btn {
+  background-color: #0dcaf0;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.random-btn:hover,
+.back-btn:hover,
+.clear-liked-btn:hover {
+  background-color: #0aa2c0;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.movie-card {
+  width: 180px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  color: #f44336;
+}
