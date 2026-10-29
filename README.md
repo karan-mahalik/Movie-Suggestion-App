@@ -1,5 +1,7 @@
 # Movie Suggestion App
 
+**🌐 Professional portfolio:** [Karan Mahalik — Data Analyst & Power BI Developer](https://karan-mahalik-portfolio.vercel.app/)
+
 A React/Vite movie discovery interface that retrieves movie information from the OMDb API. The source includes search, genre-based discovery, IMDb rating and release-year sorting, random keyword suggestions, and a local list of liked movie titles.
 
 **Career relevance:** Supports Karan's data-focused profile by demonstrating use of externally retrieved structured data, client-side filtering and sorting, and UI development. It is **not** a data analytics dashboard or a deployed BI project.
